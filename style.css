@@ -1,0 +1,39 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: nodir;
+    animation-duration: 5s;
+}
+body{
+    background-color: aqua;
+}
+
+@keyframes nodir{
+    0%{
+        left: 0px;
+        top: 0px;
+        background-color: orange;
+    }
+    25%{
+        left: 1436px;
+        top: 0px;
+        background-color: yellow;
+    }
+    50%{
+        left: 1436px;
+        top: 600px;
+        background-color: green;
+    }
+    75%{
+        left: 0px;
+        top: 600px;
+        background-color: black;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: red;
+    }
+}
